@@ -8,6 +8,15 @@ const GlobalStyle = createGlobalStyle`
     list-style:none;
     text-decoration:none;
 }
+
+:root {
+    --color-padrao1: #864AAD;
+    --color-padrao2: #450D69;
+    --color-padrao3: #67149C;
+    --color-padrao4: #9A1EE9;
+    --color-padrao5: #B564E9;
+} 
+
 html{
     scroll-behavior:smooth;
 }
@@ -27,6 +36,7 @@ body{
     font-size:1rem; 
 
 }
+
 `;
 
 export default GlobalStyle;

@@ -1,20 +1,15 @@
-import { SobreStyle } from '../css/SobreStyle'
+import { SobreStyle } from '../css/SobreStyle';
 
-const Sobre=()=>{
-    return(
-        <>
+const Sobre = () => {
+    return (
         <SobreStyle>
             <section className='sobre'>
                 <div>
-                    <h1>agora nao da </h1>
+                    <h1>agora sadasdasdasdas</h1>
                 </div>
             </section>
-        
-        
-        
         </SobreStyle>
-        </>
-    )
+    );
 }
 
-export default Sobre
+export default Sobre; 

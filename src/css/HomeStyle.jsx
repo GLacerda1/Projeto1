@@ -7,7 +7,6 @@ export const HomeStyle =styled.section`
     height:100vh;
     display:flex;
     background-size:cover;
-    background-image:url(src/assets/Carro.png);
     justify-content:center;
     align-items:center;
 }
