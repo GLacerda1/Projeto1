@@ -31,14 +31,13 @@ body{
         'carros carros carros carros'
         'login login login login'
 
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(5,0.5fr);
     grid-template-rows:repeat(5);
     font-size:1rem; 
-
 }
 
 .fimtech{
-    background-color: var(--color-padrao4);
+    background-color: var(--color-padrao)
 }
 
 `;
