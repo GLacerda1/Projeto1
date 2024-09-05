@@ -1,14 +1,14 @@
-import { ProdutosStyles } from '../css/ProdutosStyles'
+import { ProdutosStyle } from '../css/ProdutosStyle'
 
 const Produtos=()=>{
     return(
         <>
-        <ProdutosStyles>
+        <ProdutosStyle>
             
         
         
         
-        </ProdutosStyles>
+        </ProdutosStyle>
         </>
     )
 }

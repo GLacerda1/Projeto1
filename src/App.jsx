@@ -1,14 +1,14 @@
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import {Outlet} from 'react-router-dom'
-import GlobalStyles from './css/GlobalStyles';
+import GlobalStyle from './css/GlobalStyle';
 
 function App() {
 
 
   return (
     <>
-      <GlobalStyles/>
+      <GlobalStyle/>
       <Nav/>
       <Outlet/>
       <Footer/>

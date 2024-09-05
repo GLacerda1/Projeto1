@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomeStyles =styled.section`
+export const HomeStyle =styled.section`
 
 .home{
     grid-area:home;

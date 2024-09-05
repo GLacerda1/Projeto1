@@ -1,13 +1,13 @@
-import { HomeStyles } from '../css/HomeStyles'
+import { HomeStyle } from '../css/HomeStyle'
 
 const Home=()=>{
     return(
         <>
-        <HomeStyles>
+        <HomeStyle>
             <section className="home">
                 <h1>DIRIJA COM EMOÇÃO...</h1>
             </section>
-        </HomeStyles>
+        </HomeStyle>
         </>
     )
 }

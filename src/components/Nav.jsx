@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom'
-import { NavStyles } from '../css/NavStyles'
+import { NavStyle } from '../css/NavStyle'
 
 const Nav =()=>{
     return(
         <>
-        <NavStyles>
+        <NavStyle>
             <header>
                 <div>
                     <h1>nao sei</h1>
@@ -15,7 +15,7 @@ const Nav =()=>{
                     </ul>
                 </div>     
             </header>
-        </NavStyles>
+        </NavStyle>
         </>
     )
 }

@@ -1,14 +1,18 @@
-import { SobreStyles } from '../css/SobreStyles'
+import { SobreStyle } from '../css/SobreStyle'
 
 const Sobre=()=>{
     return(
         <>
-        <SobreStyles>
-
+        <SobreStyle>
+            <section className='sobre'>
+                <div>
+                    <h1>agora nao da </h1>
+                </div>
+            </section>
         
         
         
-        </SobreStyles>
+        </SobreStyle>
         </>
     )
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavStyles =styled.section`
+export const NavStyle =styled.section`
 
 .nav{
     grid-area:nav;
