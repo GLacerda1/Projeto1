@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterStyle = styled.section`
   footer {
-    background-color: var(--color-padrao1);
+    background-color: var(--color-padrao3);
     padding-top: 20px;
     min-height: 50px;
   }
@@ -99,7 +99,7 @@ export const FooterStyle = styled.section`
   }
 
   .footer_bottom p {
-    color: #343434;
+    color: black;
     margin: 0;
     font-size: 16px;
   }
@@ -137,7 +137,7 @@ export const FooterStyle = styled.section`
     border-radius: 4px;
     background-color: white;
     font-size: 14px;
-    color: #333;
+    color: black;
   }
 
   .footer_login button {
