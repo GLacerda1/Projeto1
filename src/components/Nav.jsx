@@ -6,14 +6,15 @@ const Nav =()=>{
         <>
         <NavStyle>
             <header>
-                <div>
-                    <h1>nao sei</h1>
-                    <ul>
-                        <Link to='/home' className='nav-links'>Home</Link>
-                        <Link to='/Produtos' className='nav-links'>Produtos</Link>
-                        <Link to='/Sobre' className='nav-links'>Sobre</Link>
-                    </ul>
-                </div>     
+                <section className='navegacao_container'>
+                    <div className='navegacao'>
+                        <ul>
+                            <Link to='/home' className='navegacao-link'>Home</Link>
+                            <Link to='/Produtos' className='navegacao-link'>Produtos</Link>
+                            <Link to='/Sobre' className='navegacao-link'>Sobre</Link>
+                        </ul>
+                    </div> 
+                </section>    
             </header>
         </NavStyle>
         </>

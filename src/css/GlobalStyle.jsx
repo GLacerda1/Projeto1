@@ -37,6 +37,10 @@ body{
 
 }
 
+.fimtech{
+    background-color: var(--color-padrao4);
+}
+
 `;
 
 export default GlobalStyle;
