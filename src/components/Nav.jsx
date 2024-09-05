@@ -7,6 +7,7 @@ const Nav =()=>{
         <NavStyle>
             <header>
                 <section className='navegacao_container'>
+                <h1 className='navegacao_texto'>fimtech</h1>
                     <div className='navegacao'>
                         <ul>
                             <Link to='/home' className='navegacao-link'>Home</Link>
