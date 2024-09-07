@@ -1,31 +1,57 @@
 import styled from "styled-components";
 
-export const HomeStyle =styled.section`
-
-.home{
-    grid-area:home;
-    height:67.7vh;
-    display:flex;
-    background-size:cover;
-    justify-content:center;
-    align-items:center;
-}
-
-.home h1{
-    color:yellow;
-    font-size:3rem;
-    font-weight:800;
-    animation: efeito 1.7s infinite alternate;
-}
-
-@keyframes efeito{
-    0%{
-        transform:scale(1.1);
+export const NavStyle = styled.section`
+    .navegacao {
+        display: flex;
+        float: right;
+        margin-right: 30px;
+        justify-content: flex-start;
+        align-items: center;
     }
-    100%{
-        transform:scale(.80,0.80)
+
+    .navegacao ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
     }
-}
 
+    .navegacao-link, .navegacao-button {
+        color: var(--color-padrao5);
+        text-decoration: none;
+        background-color: var(--color-padrao3); 
+        border: none;
+        border-radius: 8px; 
+        padding: 10px 20px;
+        font-size: 16px; 
+        font-weight: bold;
+        cursor: pointer; 
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
 
-`
+    .navegacao-link:hover, .navegacao-button:hover {
+        background-color: var(--color-padrao4); 
+        transform: translateY(-2px); 
+    }
+
+    .navegacao-link:active, .navegacao-button:active {
+        background-color: var(--color-padrao5); 
+        transform: translateY(1px); 
+    }
+
+    .navegacao-link:focus, .navegacao-button:focus {
+        outline: none; 
+    }
+
+    .navegacao-button {
+        margin-left: 15px;
+    }
+
+    .navegacao_title{
+        font-size:30px;
+        margin-top:10px;
+        margin-left:10px;
+    }
+`;
