@@ -2,14 +2,12 @@ import styled from 'styled-components';
 
 export const ProdutosStyle = styled.section`
   .produtos {
-    height:67.7vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 100px;
     justify-items: center;
     align-items: start;
-    background-size: cover;
   }
 
   .card {
@@ -20,6 +18,12 @@ export const ProdutosStyle = styled.section`
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 210px;
+    box-sizing: border-box;
+    margin-top:50px;
   }
 
   .card:hover {
@@ -27,15 +31,15 @@ export const ProdutosStyle = styled.section`
   }
 
   .card .card-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
   }
 
-  img{
-    width:100px;
-    height: 100px;
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `;
