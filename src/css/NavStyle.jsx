@@ -3,10 +3,8 @@ import styled from "styled-components";
 export const NavStyle = styled.section`
     .navegacao {
         display: flex;
-        gap: 20px;
         float: right;
         margin-right: 30px;
-        margin-top: 12px;
         justify-content: flex-start;
         align-items: center;
     }
@@ -47,7 +45,13 @@ export const NavStyle = styled.section`
         outline: none; 
     }
 
-    .navegacao-button + .navegacao-button {
+    .navegacao-button {
         margin-left: 15px;
+    }
+
+    .navegacao_title{
+        font-size:30px;
+        margin-top:10px;
+        margin-left:10px;
     }
 `;
