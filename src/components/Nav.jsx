@@ -6,7 +6,7 @@ const Nav = () => {
         <NavStyle>
             <header>
                 <section className='navegacao_container'>
-                    <h1 className='navegacao_texto'>Fimtech Sports</h1>
+                    <h1 className='navegacao_title'>Fimtech Sports</h1>
                     <div className='navegacao'>
                         <ul>
                             <li><Link to='/home' className='navegacao-link'>Home</Link></li>
