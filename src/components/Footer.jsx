@@ -9,31 +9,11 @@ const Footer = () => {
         <div className="footer_content">
           <h3>Desenvolvedores</h3>
           <ul className="footer_list">
-            <li>
-              <a href="https://github.com/JoaoVicOli" target="_blank" rel="noopener noreferrer" className="footer-section-sobre">
-                João Oliveira
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/eerricc" target="_blank" rel="noopener noreferrer" className="footer-section-sobre">
-                Eric Segawa
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/GabrielNakashima" target="_blank" rel="noopener noreferrer" className="footer-section-sobre">
-                Gabriel Nakashima
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/GLacerda1" target="_blank" rel="noopener noreferrer" className="footer-section-sobre">
-                Gabriel Lacerda
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/melmis" target="_blank" rel="noopener noreferrer" className="footer-section-sobre">
-                Melyssa Huang
-              </a>
-            </li>
+            <li><a href="https://github.com/JoaoVicOli" target="_blank" rel="noopener noreferrer">João Oliveira</a></li>
+            <li><a href="https://github.com/eerricc" target="_blank" rel="noopener noreferrer">Eric Segawa</a></li>
+            <li><a href="https://github.com/GabrielNakashima" target="_blank" rel="noopener noreferrer">Gabriel Nakashima</a></li>
+            <li><a href="https://github.com/GLacerda1" target="_blank" rel="noopener noreferrer">Gabriel Lacerda</a></li>
+            <li><a href="https://github.com/melmis" target="_blank" rel="noopener noreferrer">Melyssa Huang</a></li>
           </ul>
         </div>
         <div className="footer_content">
@@ -71,3 +51,4 @@ const Footer = () => {
 };
 
 export default Footer;
+  
