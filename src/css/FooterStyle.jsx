@@ -1,16 +1,16 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterStyle = styled.footer`
-
   background-color: var(--color-padrao3);
-  padding-top: 10px;
-  min-height: 50px;
+  padding-top: 20px;
+  background-color: var(--color-padrao3);
 
   .footer_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 20px 100px;
+    padding: 40px 100px;
+    border-bottom: 1px solid var(--color-padrao4);
   }
 
   .footer_content {
