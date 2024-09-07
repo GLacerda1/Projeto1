@@ -4,7 +4,7 @@ export const HomeStyle =styled.section`
 
 .home{
     grid-area:home;
-    height:62.35vh;
+    height:67.7vh;
     display:flex;
     background-size:cover;
     justify-content:center;

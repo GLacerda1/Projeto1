@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ProdutosStyle = styled.section`
   .produtos {
+    height:67.7vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;

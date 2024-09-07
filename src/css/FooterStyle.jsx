@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const FooterStyle = styled.footer`
 
   background-color: var(--color-padrao3);
-  padding-top: 20px;
+  padding-top: 10px;
   min-height: 50px;
 
   .footer_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 40px 100px;
+    padding: 20px 100px;
   }
 
   .footer_content {
