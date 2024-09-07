@@ -1,24 +1,23 @@
-import {Link} from 'react-router-dom'
-import { NavStyle } from '../css/NavStyle'
+import { Link } from 'react-router-dom';
+import { NavStyle } from '../css/NavStyle';
 
-const Nav =()=>{
-    return(
-        <>
+const Nav = () => {
+    return (
         <NavStyle>
             <header>
                 <section className='navegacao_container'>
-                <h1 className='navegacao_texto'>fimtech</h1>
+                    <h1 className='navegacao_texto'>Fimtech Sports</h1>
                     <div className='navegacao'>
                         <ul>
-                            <Link to='/home' className='navegacao-link'>Home</Link>
-                            <Link to='/Produtos' className='navegacao-link'>Produtos</Link>
-                            <Link to='/Sobre' className='navegacao-link'>Sobre</Link>
+                            <li><Link to='/home' className='navegacao-link'>Home</Link></li>
+                            <li><Link to='/Produtos' className='navegacao-link'>Produtos</Link></li>
+                            <li><Link to='/Sobre' className='navegacao-link'>Sobre</Link></li>
                         </ul>
                     </div> 
                 </section>    
             </header>
         </NavStyle>
-        </>
-    )
+    );
 }
-export default Nav
+
+export default Nav;
