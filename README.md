@@ -4,29 +4,23 @@
 >Além disso, oferece serviços de consultoria personalizada, soluções sob medida, e programas educativos para aumentar a conscientização pública e apoiar políticas de conservação marinha. O objetivo é fornecer ferramentas e conhecimento para proteger e restaurar os ecossistemas marinhos de forma eficaz e sustentável.
 
 ## 📋 Pré-requisitos
-+ Ter o arduino IDE instalado em sua máquina, para rodar os códigos da placa.
-+ materiais :
-  - DHT11 / DHT22
-  - Display LCD
-  - Arduino Uno
-  - Cabos Jumper
-  - Breadboard
-  - 3x LEDs
-  - 1x Buzzer
++ Ter o vscode
+
 
 ## 📡 🔍 Instalação
-Segue exemplo de montagem e codigo do projeto : https://wokwi.com/projects/399712532706990081
++ Instalar o React
 
 
 ## 🛠️ Construído com
 + HTML/CSS
-+ JavaScript
-+ Python
-+ Arduino IDE
++ React
 
 ## ✒️ Autores
 + Eric Segawa Montagner RM558224
 + João Victor Oliveira dos Santos RM557948
++ Gabriel Luni Nakashima RM558096
++ Gabriel Lacerda Araujo RM558307
++ Melyssa Huang Gonçalves RM558401
 
 ## Git Page
-+ https://joaovicoli.github.io/Global-Solution/
++ https://github.com/GLacerda1/Projeto1
